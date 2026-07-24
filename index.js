@@ -13,8 +13,8 @@ function sum(a,b){
 
 
 function login(msg,err){
-    if(error){
-        console.log("Error is " + error)
+    if(err){
+        console.log("Error is " + err)
     }else{
         console.log ("Welcome "+ msg);
     }
