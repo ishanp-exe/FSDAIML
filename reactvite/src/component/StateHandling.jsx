@@ -2,9 +2,9 @@ import React ,{useState} from 'react'
 
 function StateHandling() {
 const[counter,setCounter]=useState(20);
-const[red, setRed] = useState(20);
+const[red, setRed] = useState(50);
 const[green, setGreen] = useState(0);
-const[blue, setBlue] = useState(30);
+const[blue, setBlue] = useState(100);
 
 function increment(){
     setCounter(counter+10);
@@ -12,7 +12,7 @@ function increment(){
 
 return(
   
-        <div style={{backgroundColor:'rgb(${red}, ${green}, ${blue})',border:'2px solid red',height:'300px',width:'300px'}} >
+        <div style={{backgroundColor:`rgb(${red}, ${green}, ${blue})`,border:'2px solid red',height:'300px',width:'300px'}} >
         <h2 style={{color:'brown'}}>Counter App</h2>
     <h2>Counter={counter}</h2>
     <button onClick={increment}>IncreaseCounter</button>
