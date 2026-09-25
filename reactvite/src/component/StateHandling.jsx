@@ -2,7 +2,7 @@ import React ,{useState} from 'react'
 
 function StateHandling() {
 const[counter,setCounter]=useState(20);
-const[red, setRed] = useState(50);
+const[red, setRed] = useState(60);
 const[green, setGreen] = useState(0);
 const[blue, setBlue] = useState(100);
 

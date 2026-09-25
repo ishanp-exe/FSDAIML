@@ -3,7 +3,7 @@ import photo from '../assets/Photo.jpeg'
 
 function ICard() {
   //   let a=23;
-  // let name="Ishan"
+  // let name="Ishan Pandey"
   return (
     
 
